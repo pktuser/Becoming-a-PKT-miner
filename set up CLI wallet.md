@@ -6,12 +6,12 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 2. install deb package, paste into terminal:
 `dpkg pktd-v1.5.1-linux.deb`
 
-once installed:
+After `deb` install:
 
-1. Recover wallet to current machine, paste into terminal:
-`/bin/pktwallet --create --wallet 'NAME_YOUR_WALLET'`
+1. Create or recover wallet to current machine, paste into terminal:
+`/bin/pktwallet --create --wallet NAME_YOUR_WALLET`
 
-(if you don't want multiple wallets you can paste or type only: `/bin/pktwaller --create`
+(if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
 
   a. when prompted to enter passphrase, paste:
 `PASS PHRASE FROM WALLET TO BE RESTORED OR NEW PASS FOR NEW WALLET`
@@ -20,7 +20,7 @@ once installed:
 `YOUR SEED PHRASE FROM PREVIOUS WALLET OR NEW SEED PHRASE TO CREATE NEW WALLET`
   
   c. Once this is done, run pktwallet in a new terminal window. Paste into terminal:
-`/bin/pktwallet --wallet 'YOUR_WALLET_NAME'`
+`/bin/pktwallet --wallet YOUR_WALLET_NAME`
 
 (if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
 
