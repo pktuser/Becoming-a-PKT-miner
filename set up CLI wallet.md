@@ -46,9 +46,9 @@ Wallet install and setup for Linux (Debian/Ubuntu)
   1. Now check balances again to see if the addresses were pulled in, paste this into terminal:
 `/bin/pktctl --wallet getaddressbalances 1 1`
 
-    - repeat this procedure until all addressses are present
+    - Repeat this procedure until all addressses are present
   
-    - don't worry if you create extra addresses, they don't hurt anything. They are generated deterministically and will always generate in the same order.
+    - Don't worry if you create extra addresses, they don't hurt anything. They are generated deterministically and will always generate in the same order.
 
 ##### IF THIS IS THE FIRST TIME YOU'VE SET UP THIS WALLET ON YOUR MACHINE, YOU WILL HAVE TO RUN RESYNC TO PULL ALL THE DATA OFF THE BLOCKCHAIN
 
