@@ -16,7 +16,7 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 1. Create or recover wallet to current machine, paste into terminal:
 `/bin/pktwallet --create --wallet NAME_YOUR_WALLET`
 
-    - (if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
+    - If you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
 
 2. when prompted to enter passphrase, paste:
 `PASS PHRASE FROM WALLET TO BE RESTORED OR NEW PASS FOR NEW WALLET`
@@ -31,7 +31,7 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 1. Run pktwallet in a new terminal window. Paste into terminal:
 `/bin/pktwallet --wallet YOUR_WALLET_NAME`
 
-  - (if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
+    - If you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
 
   1. allow this to run in the background. It should say "wallet opened" - once it does, just wait. The next steps can take some time without any updates.
 
