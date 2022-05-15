@@ -9,14 +9,14 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 2. install deb package, paste into terminal:
 `dpkg pktd-v1.5.1-linux.deb`
 
-You are now done installing, next step is to create a database for your wallet on your local machine.
+    - You are now done installing, next step is to create a database for your wallet on your local machine.
 
 ### CREATE WALLET
 
 1. Create or recover wallet to current machine, paste into terminal:
 `/bin/pktwallet --create --wallet NAME_YOUR_WALLET`
 
-  - (if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
+    - (if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
 
 2. when prompted to enter passphrase, paste:
 `PASS PHRASE FROM WALLET TO BE RESTORED OR NEW PASS FOR NEW WALLET`
@@ -24,14 +24,14 @@ You are now done installing, next step is to create a database for your wallet o
 3. when prompted to enter seedphrase, paste: 
 `YOUR SEED PHRASE FROM PREVIOUS WALLET OR NEW SEED PHRASE TO CREATE NEW WALLET`
 
-  - You have now created your local wallet database. Now the database needs to be updated to match the blockchain.
+    - You have now created your local wallet database. Now the database needs to be updated to match the blockchain.
 
 ### RUN WALLET AND PERFORM ACTIONS ON IT
 
 1. Run pktwallet in a new terminal window. Paste into terminal:
 `/bin/pktwallet --wallet YOUR_WALLET_NAME`
 
-- (if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
+  - (if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
 
   1. allow this to run in the background. It should say "wallet opened" - once it does, just wait. The next steps can take some time without any updates.
 
@@ -46,9 +46,9 @@ You are now done installing, next step is to create a database for your wallet o
   1. Now check balances again to see if the addresses were pulled in, paste this into terminal:
 `/bin/pktctl --wallet getaddressbalances 1 1`
 
-- repeat this procedure until all addressses are present
+    - repeat this procedure until all addressses are present
   
-- don't worry if you create extra addresses, they don't hurt anything. They are generated deterministically and will always generate in the same order.
+    - don't worry if you create extra addresses, they don't hurt anything. They are generated deterministically and will always generate in the same order.
 
 ##### IF THIS IS THE FIRST TIME YOU'VE SET UP THIS WALLET ON YOUR MACHINE, YOU WILL HAVE TO RUN RESYNC TO PULL ALL THE DATA OFF THE BLOCKCHAIN
 
