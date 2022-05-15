@@ -50,7 +50,7 @@ You have now created your local wallet database. Now the database needs to be up
   
   - don't worry if you create extra addresses, they don't hurt anything. They are generated deterministically and will always generate in the same order.
 
-# IF THIS IS THE FIRST TIME YOU'VE SET UP THIS WALLET ON YOUR MACHINE, YOU WILL HAVE TO RUN RESYNC TO PULL ALL THE DATA OFF THE BLOCKCHAIN
+##### IF THIS IS THE FIRST TIME YOU'VE SET UP THIS WALLET ON YOUR MACHINE, YOU WILL HAVE TO RUN RESYNC TO PULL ALL THE DATA OFF THE BLOCKCHAIN
 
 3. Only after all addresses show up should you resync the wallet. Only resync on new wallet creation or recovery unless you like wasting time. Paste this into terminal:
 `/bin/pktctl --wallet resync`
