@@ -47,3 +47,14 @@ After `deb` install:
   a. This will take about 12 hours to complete
   
   b. You will know it's complete when the updates slow down on the screen to one new line every 30-90 seconds instead of multiple per second.
+  
+  
+  
+### OTHER COMMANDS ###
+
+uninstall: `sudo dpkg --remove pkgname` pkgname could be eg `pktd-v1.5.1-linux.deb`
+(useful when needing to update to latest version)
+
+wallet info: `pktctl --wallet getinfo`
+
+get wallet seed: `/bin/pktctl --wallet getwalletseed`
