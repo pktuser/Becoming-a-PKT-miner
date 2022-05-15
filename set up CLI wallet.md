@@ -63,21 +63,23 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 
 Pktwallet must be running in the background or in a separate terminal window. All commands are run via pktctl.
 
+### If you mine and need to fold your coins, I highly suggest running my script `https://github.com/pktuser/fold`
+
 1. Useful commands:
     
-     1. show all balances: `/bin/pktctl --wallet getaddressbalances 1 1`
+     - show all balances: `/bin/pktctl --wallet getaddressbalances 1 1`
     
-     1. unlock wallet (#TIMEOUT - number of seconds before wallet automatically locks): `/bin/pktctl --wallet walletpassphrase YOUR_PASS_PHRASE #TIMEOUT`
+     - unlock wallet (#TIMEOUT - number of seconds before wallet automatically locks): `/bin/pktctl --wallet walletpassphrase YOUR_PASS_PHRASE #TIMEOUT`
    
-     1. lock wallet: `/bin/pktctl --wallet walletlock`
+     - lock wallet: `/bin/pktctl --wallet walletlock`
     
-     1. get wallet seed: `/bin/pktctl --wallet getwalletseed`
+     - get wallet seed: `/bin/pktctl --wallet getwalletseed`
     
-     1. show installed version: `/bin/pktctl -V`
+     - show installed version: `/bin/pktctl -V`
     
-     1. get wallet info: `/bin/pktctl --wallet getinfo`
+     - get wallet info: `/bin/pktctl --wallet getinfo`
 
-## 1. If you mine and need to fold your coins, I highly suggest running my script `https://github.com/pktuser/fold`
+
   
 #### OTHER COMMANDS ###
 
