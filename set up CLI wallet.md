@@ -16,11 +16,11 @@ You are now done installing, next step is to create a database for your wallet o
 1. Create or recover wallet to current machine, paste into terminal:
 `/bin/pktwallet --create --wallet NAME_YOUR_WALLET`
 
-(if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
+  (if you don't want multiple wallets you can paste or type only: `/bin/pktwallet --create`
 
   a. when prompted to enter passphrase, paste:
 `PASS PHRASE FROM WALLET TO BE RESTORED OR NEW PASS FOR NEW WALLET`
-  
+ 
   b. when prompted to enter seedphrase, paste: 
 `YOUR SEED PHRASE FROM PREVIOUS WALLET OR NEW SEED PHRASE TO CREATE NEW WALLET`
 
@@ -31,7 +31,7 @@ You have now created your local wallet database. Now the database needs to be up
 1. Run pktwallet in a new terminal window. Paste into terminal:
 `/bin/pktwallet --wallet YOUR_WALLET_NAME`
 
-(if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
+    (if you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
 
   a. allow this to run in the background. It should say "wallet opened" - once it does, just wait. The next steps can take some time without any updates.
 
@@ -64,11 +64,17 @@ You have now created your local wallet database. Now the database needs to be up
 1. Pktwallet must be running in the background or in a separate terminal window. All commands are run via pktctl.
 
   A. Useful commands:
+    
     1.) show all balances: `/bin/pktctl --wallet getaddressbalances 1 1`
+    
     2.) unlock wallet (#TIMEOUT - number of seconds before wallet automatically locks): `/bin/pktctl --wallet walletpassphrase YOUR_PASS_PHRASE #TIMEOUT`
+    
     3.) lock wallet: `/bin/pktctl --wallet walletlock`
+    
     4.) get wallet seed: `/bin/pktctl --wallet getwalletseed`
+    
     5.) show installed version: `/bin/pktctl -V`
+    
     6.) get wallet info: `/bin/pktctl --wallet getinfo`
 
 2. If you mine and need to fold your coins, I highly suggest running my script `https://github.com/pktuser/fold`
