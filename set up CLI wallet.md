@@ -61,21 +61,21 @@ You are now done installing, next step is to create a database for your wallet o
 
 ### PERFORM ACTIONS ON WALLET
 
-1. Pktwallet must be running in the background or in a separate terminal window. All commands are run via pktctl.
+Pktwallet must be running in the background or in a separate terminal window. All commands are run via pktctl.
 
-  1. Useful commands:
+1. Useful commands:
     
-   1. show all balances: `/bin/pktctl --wallet getaddressbalances 1 1`
+     1. show all balances: `/bin/pktctl --wallet getaddressbalances 1 1`
     
-   1. unlock wallet (#TIMEOUT - number of seconds before wallet automatically locks): `/bin/pktctl --wallet walletpassphrase YOUR_PASS_PHRASE #TIMEOUT`
+     1. unlock wallet (#TIMEOUT - number of seconds before wallet automatically locks): `/bin/pktctl --wallet walletpassphrase YOUR_PASS_PHRASE #TIMEOUT`
    
-   1. lock wallet: `/bin/pktctl --wallet walletlock`
+     1. lock wallet: `/bin/pktctl --wallet walletlock`
     
-   1. get wallet seed: `/bin/pktctl --wallet getwalletseed`
+     1. get wallet seed: `/bin/pktctl --wallet getwalletseed`
     
-   1. show installed version: `/bin/pktctl -V`
+     1. show installed version: `/bin/pktctl -V`
     
-   1. get wallet info: `/bin/pktctl --wallet getinfo`
+     1. get wallet info: `/bin/pktctl --wallet getinfo`
 
 ## 1. If you mine and need to fold your coins, I highly suggest running my script `https://github.com/pktuser/fold`
   
