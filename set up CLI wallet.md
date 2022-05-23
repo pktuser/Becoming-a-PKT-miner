@@ -32,6 +32,8 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 `/bin/pktwallet --wallet YOUR_WALLET_NAME`
 
     - If you only have a single unnamed wallet, paste or type only: `/bin/pktwallet`
+    
+    - To run pktwallet with a less verbose output, append this to end of command: `2>&1 | grep -v 'peer\|headers'`
 
   1. allow this to run in the background. It should say "wallet opened" - once it does, just wait. The next steps can take some time without any updates.
 
