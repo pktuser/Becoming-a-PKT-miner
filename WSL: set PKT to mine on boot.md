@@ -33,7 +33,7 @@ navigate to startup folder: %appdata%\Microsoft\Windows\Start Menu\Programs\Star
 
  - you want this in the startup folder so windows has access to it prior to any users logging in
 
-create new .txt document file in the startup folder, type this into file: `wsl ~/mineNow.sh`
+create new .txt document file in the startup folder, type this into file: `powershell -command "wsl ~/mineNow.sh"`
 
 Save file as "all types" name it: `mineOnPowerOn.cmd`
 
