@@ -13,7 +13,7 @@ navigate to startup folder: %appdata%\Microsoft\Windows\Start Menu\Programs\Star
 
 create new .txt document file in the startup folder, type this into file: `wsl ~/mineNow.sh`
 
-Save file as "all types" name it: `mineOnPowerUp.cmd`
+Save file as "all types" name it: `mineOnPowerOn.cmd`
 
 
 
@@ -28,7 +28,7 @@ Settings:
 
 triggers: At Startup, Delay task for 1 minute (this will give time for any background prcesses to get loaded)
 
-action: start a program, Program/script: navigate to `mineOnePowerUp.cmd` file and select that file, click OK.
+action: start a program, Program/script: navigate to `mineOnePowerOn.cmd` file and select that file, click OK.
 
 - Change any other settings you want but this is the important stuff
 
