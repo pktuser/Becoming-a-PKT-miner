@@ -19,7 +19,8 @@ Save file as "all types" name it: `mineOnPowerUp.cmd`
 
 Windows Task Scheduler:
 create task scheduler task `minePKTonPowerOn`
-Setting: 
+
+Settings: 
 
 - Run whether user is logged on or not
 - Run with highest privileges
