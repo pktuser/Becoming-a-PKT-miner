@@ -1,5 +1,8 @@
 This will work for WSL on Windows. I use this when I'm on vacation and worried about stupid windows updates or accidental overheat forcing restarts to my mining rigs.
 
+
+####Step 1
+
 create bash file `mineNow.sh` which is simply:
 
 ```
@@ -24,7 +27,7 @@ note: change to your wallet address
 
 
 
-
+####Step 2
 
 navigate to startup folder: %appdata%\Microsoft\Windows\Start Menu\Programs\Startup\
 
@@ -35,6 +38,7 @@ create new .txt document file in the startup folder, type this into file: `wsl ~
 Save file as "all types" name it: `mineOnPowerOn.cmd`
 
 
+####Step 3
 
 Windows Task Scheduler:
 create task scheduler task `minePKTonPowerOn`
