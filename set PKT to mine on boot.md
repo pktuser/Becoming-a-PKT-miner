@@ -2,7 +2,8 @@ This will work for WSL on Windows. I use this when I'm on vacation and worried a
 
 create bash file `mineNow.sh` which is simply:
 
-`#!/bin/bash
+```
+#!/bin/bash
 
 while :
 
@@ -10,7 +11,8 @@ do
 
 timeout 60 ~/packetcrypt ann -p pkt1qxrdhkc8ayyjtla97wmudpgvpz3w0y0tfa7lhfu http://pool.pkt.world/master/4096 http://pool.pktpool.io/ http://pool.pkteer.com/ 2>&1 | grep 'Ke/s'
 
-done`
+done
+```
 
 
 
