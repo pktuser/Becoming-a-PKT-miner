@@ -55,7 +55,7 @@ Wallet install and setup for Linux (Debian/Ubuntu)
 ##### IF THIS IS THE FIRST TIME YOU'VE SET UP THIS WALLET ON YOUR MACHINE, YOU WILL HAVE TO RUN RESYNC TO PULL ALL THE DATA OFF THE BLOCKCHAIN
 
 1. Only after all addresses show up should you resync the wallet. Only resync on new wallet creation or recovery unless you like wasting time. Paste this into terminal:
-`/bin/pktctl --wallet resync`
+`/bin/pktctl --wallet resync 0`
 
   1. This will take about 12-16 hours to complete
   
