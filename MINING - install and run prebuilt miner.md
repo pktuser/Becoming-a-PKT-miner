@@ -12,7 +12,7 @@ CLI for WSL / Linux (Debian/Ubuntu)
 
 `mv packetcrypt-v0.5.2-linux_amd64 packetcrypt`
 
-3. run miner, paste into terminal:
+3. run miner, paste into terminal (change to your wallet address, or test on this address):
 
 `./packetcrypt ann -p pkt1qxrdhkc8ayyjtla97wmudpgvpz3w0y0tfa7lhfu http://pool.pkt.world/ https://stratum.zetahash.com/ http://pool.pktpool.io/ http://pool.pkteer.com/`
 
