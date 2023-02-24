@@ -1,14 +1,15 @@
 ###### NOTES FOR SHARING ######
 
-### INSTALL
+### INSTALL WALLET
 
 Wallet install and setup for Linux (Debian/Ubuntu)
 1. download installer, paste into terminal:
-`wget https://github.com/pkt-cash/pktd/releases/download/pktd-v1.5.1/pktd-v1.5.1-linux.deb`
+`wget https://github.com/pkt-cash/pktd/releases/download/pktd-v1.6.1/pktd-v1.6.1-linux.deb`
 
 2. install deb package, paste into terminal:
-`dpkg pktd-v1.5.1-linux.deb`
+`sudo dpkg pktd-v1.6.1-linux.deb`
 
+    - type password, press enter
     - You are now done installing, next step is to create a database for your wallet on your local machine.
 
 ### CREATE WALLET
