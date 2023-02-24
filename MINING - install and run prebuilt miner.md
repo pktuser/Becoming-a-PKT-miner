@@ -2,7 +2,7 @@
 
 ### INSTALL & RUN PREBUILT MINER
 
-PREBUILT MINER install and setup for WSL / Linux (Debian/Ubuntu)
+CLI for WSL / Linux (Debian/Ubuntu)
 
 1. download miner binary, paste into terminal:
 
